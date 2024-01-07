@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RachardianCodes - Portfolio</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css"> <!-- Ganti dengan jalur yang sesuai -->
+  <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script> <!-- Ganti dengan jalur yang sesuai -->
+  <script src="https://kit.fontawesome.com/36af2276c3.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+
+  <style>
+    body {
+      padding-top: 56px; /* Tinggi navbar untuk menghindari tumpang tindih konten */
+    }
+
+    .navbar {
+      background-color: #34CD30; /* Warna navbar yang baru */
+      color: #FFFFFF; /* Warna font sesuai kebutuhan */
+      font-family: 'Arial', sans-serif; /* Font elegan sesuai kebutuhan */
+    }
+
+    .navbar-brand {
+      font-size: 1.5em; /* Ukuran font brand */
+      font-weight: bold;
+    }
+
+    .jumbotron {
+      background-color: #f8f9fa; /* Warna latar belakang jumbotron */
+      text-align: center; /* Pusatkan teks dalam jumbotron */
+      padding: 50px 0; /* Penyesuaian jarak atas dan bawah */
+    }
+
+    .display-3 {
+      font-size: 2.5em; /* Ukuran font Hello everyone */
+      color: #34CD30; /* Warna font Hello everyone */
+    }
+
+    .display-1 {
+      font-size: 2em; /* Ukuran font nama */
+      font-weight: bold; /* Tambahkan penekanan pada nama */
+    }
+
+    .display-2 {
+      font-size: 1.5em; /* Ukuran font role */
+      font-weight: bold; /* Tambahkan penekanan pada role */
+    }
+
+    .display-4 {
+      color: #34CD30; /* Warna font smiley face */
+    }
+
+    .btn-contact {
+      background-color: #34CD30; /* Warna tombol disesuaikan dengan warna navbar */
+      border-color: #34CD30;
+    }
+
+    .btn-contact:hover {
+      background-color: #2EAC27; /* Warna tombol saat dihover disesuaikan dengan warna navbar yang lebih gelap */
+      border-color: #2EAC27;
+    }
+
+    /* Menggunakan class khusus untuk menyesuaikan jarak foto dan teks dengan navbar */
+    /* .jumbotron .row {
+      /* margin-top: 20px; Penyesuaian jarak atas */
+    /*
+
+    /* Memberikan padding pada teks agar tidak terlalu dekat dengan batas jumbotron */
+    .jumbotron .col-md-6 {
+      padding: 5px;
+    }
+
+    /* Memastikan foto sesuai dengan tinggi teks */
+    .jumbotron img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 50%; /* Membuat sudut foto menjadi bulat */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">RachardianCodes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">My Portofolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Clients</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron - Pengenalan Diri -->
+  <div class="jumbotron d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="IMG_20231207_144646.html" alt="RachardianCodes" class="img-fluid rounded-circle" style="width: 300px; height: 300px;"">
+        </div>
+        <div class="col-md-6">
+          <h1 class="display-3">Hello everyone, I'm</h1>
+          <p class="lead"><span class="display-1">Rachardian Bagaskoro</span>,</p>
+          <p class="lead"><span class="display-2">Student & Junior Programmer</span>.</p>
+          <p class="lead">Interested in HTML5, PHP, Java Desktop, Kotlin, VB.Net, MySql, Sql Server, Code Igniter FrameWork</p>
+          <a href="#" class="btn btn-contact btn-lg">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Isi Konten Lainnya akan ditambahkan di sini -->
+  <!-- About Me Section -->
+  <section id="about-me" class="bg-light p-5 mb-5 rounded shadow">
+    <div class="container">
+      <h2 style="color: #34CD30; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">About Me</h2>
+      <p style="font-family: 'Montserrat', sans-serif;">
+        My name is Rachardian Bagaskoro, and I am a graduate of Texar Karawang Vocational High School in 2024. During my time as a student, I also worked part-time as a practical work report assistant, PowerPoint designer, and junior programmer. I participated in the IT Software Solution for Business competition and won the first place in 2023 and second place in 2022.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact-me" class="bg-light p-5 mb-5 rounded shadow text-center">
+    <div class="container">
+      <h2 style="color: #34CD30; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Contact Me</h2>
+      
+      <div class="social-icons mt-4">
+        <a href="https://www.instagram.com/rachardiannet304/" class="text-decoration-none me-3 text-dark">
+          <i class="fab fa-instagram fa-3x" style="color: #34CD30;"></i>
+        </a>
+        <a href="https://github.com/RachardianCodes" class="text-decoration-none me-3 text-dark">
+          <i class="fab fa-linkedin fa-3x" style="color: #34CD30;"></i>
+        </a>
+        <a href="https://www.youtube.com/@rachardianbagaskoro4878" class="text-decoration-none me-3 text-dark">
+          <i class="fab fa-youtube fa-3x" style="color: #34CD30;"></i>
+        </a>
+        <a href="https://mail.google.com/rdncodenet304@gmail.com" class="text-decoration-none me-3 text-dark">
+          <i class="fas fa-envelope fa-3x" style="color: #34CD30;"></i>
+        </a>
+        <a href="https://github.com/RachardianCodes" class="text-decoration-none text-dark">
+          <i class="fab fa-github fa-3x" style="color: #34CD30;"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>
