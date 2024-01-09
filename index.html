@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RachardianCodes - Portfolio</title>
+  <title>RachardianCodes - Portofolio</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css"> <!-- Ganti dengan jalur yang sesuai -->
   <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script> <!-- Ganti dengan jalur yang sesuai -->
@@ -135,7 +135,7 @@
     }
 
     .portfolio-image {
-      width: 80%;
+      width: 70%;
       margin: 0 auto;
     }
 
@@ -146,6 +146,49 @@
       font-size: 20px;
       color: #34CD30;
     }
+    
+    /* My Blog Section */
+    #my-blog {
+      background-color: #f8f9fa;
+      padding: 5em 0;
+      border-radius: 15px; /* Tambahkan border-radius */
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Tambahkan box-shadow */
+    }
+
+    #my-blog h2 {
+      color: #34CD30;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .blog-post {
+      width: 100%;
+      text-align: center;
+      border: 1px solid #ddd;
+      padding: 1em;
+      margin-bottom: 1em;
+      border-radius: 10px; /* Tambahkan border-radius */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Tambahkan box-shadow */
+    }
+
+    .blog-image {
+      width: 60%;
+      margin: 0 auto;
+      
+    }
+
+    .blog-title {
+      width: 100%;
+      margin-top: 1em;
+      font-weight: bold;
+      font-size: 20px;
+      color: #34CD30;
+    }
+
+    .blog-description {
+      padding-top: 5px;
+    }
+
+   
   </style>
 </head>
 <body>
@@ -173,7 +216,7 @@
           <a class="nav-link" href="#my-portfolio">My Portofolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
+          <a class="nav-link" href="#my-blog">Blog</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Clients</a>
@@ -196,7 +239,7 @@
             <h1 class="display-3"><b>Hello everyone, I'm</b></h1>
             <p class="lead"><span class="display-1">Rachardian Bagaskoro</span>,</p>
             <p class="lead"><span class="display-2">Student & Junior Programmer</span>.</p>
-            <p class="lead">Interested in HTML5, PHP, Java Desktop, Kotlin, VB.Net, MySql, Sql Server, Code Igniter FrameWork</p>
+            <p class="lead">Interested in Back-End Developer</p>
             <a href="#contact-me" class="btn btn-contact btn-lg">Contact Me</a>
           </div>
         </div>
@@ -290,7 +333,7 @@
         </div>
 
         <div class="portfolio-description" style="padding-top: 5px;">
-          This is a web application for the election of the Student Council President (Ketua OSIS) at SMKS Texar Karawang. The application is named "TexasVoice", and it is designed to facilitate the students of SMKS Texar Karawang in voting for the Student Council President for the new academic year. The application has two user roles: admin and voter. The admin has the ability to manage student, teacher, and Student Council President candidate data, as well as view the overall voting results. Voters, on the other hand, can cast their votes or choose from the available Student Council President candidates. It is developed using the following tools :
+          "TexasVoice" is a web application developed for SMKS Texar Karawang's Student Council President election. It serves two user roles: admin and voter. Admins manage student, teacher, and candidate data, and view voting results. Voters can cast votes for Student Council President candidates. The application aims to streamline the election process for the new academic year. It is developed using the following tools :
         </div>
         <div class="portfolio-description">
           <li>PHP Language (Codeigniter 4)</li>
@@ -317,6 +360,38 @@
       <!-- Add more portfolio items as needed -->
 
     
+  </div>
+</section>
+
+<!-- Blog Section -->
+<section id="my-blog">
+  <div class="container text-center">
+    <h2>My Blog</h2>
+
+    <div class="blog-post">
+      <h3 class="portfolio-title">Juara 1 Lomba LKS Tingkat Kabupaten Karawang Tahun 2023</h3>
+      <div class="blog-image">
+        <!-- Ganti dengan elemen gambar untuk blog -->
+        <img src="Blog/WhatsApp Image 2024-01-09 at 09.38.27.jpeg" alt="Blog Image 1" class="img-fluid" style="border-radius: 20px; padding-top: 15px;">
+      </div>
+      <div class="blog-description" style="padding-top: 15px;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt quam ut dui hendrerit, at hendrerit justo fermentum.
+      </div>
+    </div>
+
+    <div class="blog-post">
+      <h3 class="portfolio-title">Blog Title 2</h3>
+      <div class="blog-image">
+        <!-- Ganti dengan elemen gambar untuk blog -->
+        <img src="path/to/blog_image_2.jpg" alt="Blog Image 2" class="img-fluid">
+      </div>
+      <div class="blog-description" style="padding-top: 5px;">
+        Nullam rhoncus, metus at hendrerit lacinia, odio justo tincidunt dui, id malesuada velit est sit amet libero.
+      </div>
+    </div>
+
+    <!-- Add more blog posts as needed -->
+
   </div>
 </section>
 
