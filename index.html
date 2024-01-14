@@ -39,14 +39,15 @@
     }
 
     .display-1 {
-      font-size: 2em; /* Ukuran font nama */
-      font-weight: bold; /* Tambahkan penekanan pada nama */
+      font-size: 2em; /* Decrease the font size for Rachardian Bagaskoro */
+      font-weight: bold; /* Keep the bold style */
     }
 
     .display-2 {
-      font-size: 1.5em; /* Ukuran font role */
-      font-weight: bold; /* Tambahkan penekanan pada role */
-    }
+      font-size: 1.2em; /* Decrease the font size for Student & Junior Programmer */
+      /* font-weight: bold; Keep the bold style */
+}
+
 
     .display-4 {
       color: #34CD30; /* Warna font smiley face */
@@ -135,7 +136,7 @@
     }
 
     .portfolio-image {
-      width: 70%;
+      width: 100%;
       margin: 0 auto;
     }
 
@@ -143,8 +144,9 @@
       width: 100%;
       margin-top: 1em;
       font-weight: bold;
-      font-size: 20px;
+      font-size: 1.5em;
       color: #34CD30;
+      padding-top: 5px;
     }
     
     /* My Blog Section */
@@ -204,7 +206,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#awal">Beranda</a>
+          <a class="nav-link" href="#beranda">Beranda</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#about-me">About Me</a>
@@ -228,18 +230,19 @@
 
 
   <!-- Jumbotron - Pengenalan Diri -->
-  <section id="awal">
+  <section id="beranda">
     <div class="jumbotron d-flex align-items-center">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="IMG_20231207_144646.html" alt="RachardianCodes" class="img-fluid rounded-circle" style="width: 300px; height: 300px;">
+            <img src="IMG_20231207_144646.jpg" alt="RachardianCodes" class="img-fluid rounded-circle" style="width: 200px; height: 200px;">
           </div>
           <div class="col-md-6">
-            <h1 class="display-3"><b>Hello everyone, I'm</b></h1>
+            <h1 class="display-3"><b></b></h1>
             <p class="lead"><span class="display-1">Rachardian Bagaskoro</span>,</p>
             <p class="lead"><span class="display-2">Student & Junior Programmer</span>.</p>
-            <p class="lead">Interested in Back-End Developer</p>
+            <p class="lead"></p>
+
             <a href="#contact-me" class="btn btn-contact btn-lg">Contact Me</a>
           </div>
         </div>
@@ -290,71 +293,33 @@
     
       <div class="portfolio-box">
         <div class="portfolio-image">
-          <!-- Ganti dengan elemen video -->
-          <video width="100%" height="100%" controls style="border-radius: 10px;">
-            <source src="portofolio1/10.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+          <a href="librarytexar.html">
+            <div class="portfolio-image">
+              <!-- Ganti dengan elemen video -->
+              <img src="portofolio1/2.jpg" alt="Portfolio Library Application of SMKS Texar Karawang" class="portfolio-image" style="border-radius: 10px;">
+            
+            </div>
+            </a>
         </div>
         <div class="portfolio-title">
           Library Application Of SMKS Texar Karawang
         </div>
-        <div class="portfolio-description" style="padding-top: 5px;">
-          This is a library application developed for SMKS Texar Karawang, providing a user-friendly interface for managing books and library resources. It is released for <strong>Desktop</strong> and develope using the following tools :
-        </div>
-        <div class="portfolio-description">
-          <li>Java Language</li>
-          <li>MySQL Database</li>
-          <li>XAMPP Control Panel</li>
-          <li>NetBeans 8.2 IDE</li>
-        </div>
-        <div class="portfolio-description" style="padding-top: 15px;">
-          And has features :
-        </div>
-        <div class="portfolio-description">
-          <li>Create, Read, Update, Delete, Search Data</li>
-          <li>Import File (.csv)</li>
-          <li>Login & Logout</li>
-          <li>Role User</li>
-        </div>
+        
 
       </div>
 
       <div class="portfolio-box">
+        <a href="texasvoice.html">
         <div class="portfolio-image">
           <!-- Ganti dengan elemen video -->
-          <video width="100%" height="100%" controls style="border-radius: 10px;">
-            <source src="potofolio2/Project TexasVoice(1).mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+          <img src="potofolio2/Screenshot 2024-01-14 194739.png" alt="Portfolio TexasVoice" class="portfolio-image" style="border-radius: 10px;">
+        
         </div>
+        </a>
         <div class="portfolio-title">
           TexasVoice Web Application
         </div>
 
-        <div class="portfolio-description" style="padding-top: 5px;">
-          "TexasVoice" is a <strong>web application</strong> developed for SMKS Texar Karawang's Student Council President election. It serves two user roles: admin and voter. Admins manage student, teacher, and candidate data, and view voting results. Voters can cast votes for Student Council President candidates. The application aims to streamline the election process for the new academic year. It is developed using the following tools :
-        </div>
-        <div class="portfolio-description">
-          <li>PHP Language (Codeigniter 4)</li>
-          <li>Bootstrap (AdminLTE 3)</li>
-          <li>MySQL Database</li>
-          <li>XAMPP Control Panel</li>
-          <li>Visual Studio Code</li>
-          <li>Web Browser (Microsoft Edge)</li>
-          <li>PhpSpreadsheet Library</li>
-        </div>
-        <div class="portfolio-description" style="padding-top: 15px;">
-          And has features :
-        </div>
-        <div class="portfolio-description">
-          <li>Create, Read, Update, Delete Data</li>
-          <li>Import File (.xlsx)</li>
-          <li>Login & Logout</li>
-          <li>Upload Image</li>
-          <li>Total Vote Chart</li>
-          <li>Role User</li>
-        </div>
       </div>
 
       <!-- Add more portfolio items as needed -->

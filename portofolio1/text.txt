@@ -1,0 +1,18 @@
+<div class="portfolio-description" style="padding-top: 5px;">
+          This is a library application developed for SMKS Texar Karawang, providing a user-friendly interface for managing books and library resources. It is released for <strong>Desktop</strong> and develope using the following tools :
+        </div>
+        <div class="portfolio-description">
+          <li>Java Language</li>
+          <li>MySQL Database</li>
+          <li>XAMPP Control Panel</li>
+          <li>NetBeans 8.2 IDE</li>
+        </div>
+        <div class="portfolio-description" style="padding-top: 15px;">
+          And has features :
+        </div>
+        <div class="portfolio-description">
+          <li>Create, Read, Update, Delete, Search Data</li>
+          <li>Import File (.csv)</li>
+          <li>Login & Logout</li>
+          <li>Role User</li>
+        </div>

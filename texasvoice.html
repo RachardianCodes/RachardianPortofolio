@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RachardianCodes - Portofolio</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css"> <!-- Ganti dengan jalur yang sesuai -->
+  <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script> <!-- Ganti dengan jalur yang sesuai -->
+  <script src="https://kit.fontawesome.com/36af2276c3.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+
+  <style>
+    body {
+      padding-top: 56px; /* Tinggi navbar untuk menghindari tumpang tindih konten */
+    }
+    
+
+    .navbar {
+      background-color: #34CD30; /* Warna navbar yang baru */
+      color: #FFFFFF; /* Warna font sesuai kebutuhan */
+      font-family: 'Arial', sans-serif; /* Font elegan sesuai kebutuhan */
+    }
+
+    .navbar-brand {
+      font-size: 1.5em; /* Ukuran font brand */
+      font-weight: bold;
+    }
+    .portfolio-item {
+      /* background-color: #34CD30;
+      color: #FFFFFF;
+      
+      padding: 20px;
+      margin-bottom: 20px; */
+
+      background-color: #f8f9fa;
+      padding: 3em 0;
+      border-radius: 15px; /* Tambahkan border-radius */
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Tambahkan box-shadow */
+
+    }
+
+    .portfolio-item img {
+      width: 100%;
+    /* padding-left: 10px; */
+      height: auto;
+      /* border-radius: 10px; */
+    }
+
+    .portfolio-text {
+      padding: 20px;
+      text-align: justify;
+    }
+
+    /* Portfolio Section */
+#portfolio {
+  position: relative;
+  overflow: hidden;
+  
+}
+
+#portfolio-image {
+    width: 100%;
+      height: 30vh; /* Set the height to 40% of the viewport height */
+      object-fit: cover; /* Preserve aspect ratio and cover the entire container */
+      opacity: 0.8;
+      padding-bottom: 20px;
+      color: black;
+}
+
+#portfolio-title {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+
+   
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #34CD30;">
+  <div class="container">
+    <a class="navbar-brand" href="#">RachardianCodes</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html#beranda">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-me">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-me">Contact Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#my-portfolio">My Portofolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#my-blog">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Clients</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Portfolio Section -->
+<section id="portfolio">
+    <img id="portfolio-image" src="texar01.jpg" alt="SMK Texar Image">
+    <!-- <div id="portfolio-title">TexasVoice</div> -->
+  
+    <!-- First Portfolio Item -->
+    <div class="container portfolio-item">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="potofolio2/Screenshot 2024-01-14 194739.png" alt="Photo 1" style="border-radius: 20px;">
+        </div>
+        <div class="col-md-6 portfolio-text">
+          <h3>TexasVoice</h3>
+          <p>TexasVoice is a web-based application designed specifically for the election of the student council president at SMKS Texar Karawang. The application provides two levels of access, namely admin and voter, each with different functions according to their respective roles.</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Second Portfolio Item -->
+    <div class="container portfolio-item">
+      <div class="row">
+        <div class="col-md-6 order-md-2">
+          <img src="potofolio2/Screenshot 2024-01-14 214509.png" alt="Photo 2" style="border-radius: 20px;">
+        </div>
+        <div class="col-md-6 order-md-1 portfolio-text">
+          <h3>Key Features:</h3>
+          <h6>Admin Panel:</h6>
+          <li>Voter Data Management: Admin can manage voter data, including registration and deletion of voters.</li></p>
+          <li>Candidate Management: Admin can add, edit, or delete data for student council president candidates.</li></p>
+          <li>Vote Result Monitoring: Admin has access to view real-time election results.</li>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Third Portfolio Item -->
+    <div class="container portfolio-item">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="path/to/your/photo3.jpg" alt="Photo 3">
+        </div>
+        <div class="col-md-6 portfolio-text">
+          <h3>Photo 3 Title</h3>
+          <p>Your explanation text for Photo 3 goes here.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+<!-- Footer Section -->
+<footer class="navbar text-light text-center p-3">
+  <p class="m-0 navbar-text mx-auto" style="color: #FFFFFF;">
+    Copyright © 2024 Rachardian Bagaskoro All rights reserved.
+  </p>
+</footer>
+
+</body>
+</html>
